@@ -9,9 +9,22 @@ http://web.stanford.edu/class/cs147/projects/OnlineLocalCommunity/reunite/
 
 ## Operating instructions
 
-We developed this prototype using React Native. It is meant to be run on the iPhone X. You can download the .zip file of the GitHub repository by visiting our website (link above). To run the app using Expo:
+We developed this prototype using React Native. It is meant to be run on the iPhone X and can be simulated on a Mac. You can download the .zip file of the repository by visiting our website (link above). WARNING: Our project uses some third-party components which are currently unsupported by Expo. Trying to run the app with Expo will cause weird things to happen. To run the app without Expo:
 
-TODO: STEPS GO HERE
+NOTE: Before getting started, this method may require your XCode version to be fully updated. If you receive an error stating that this is the case, go ahead and update XCode before continuing.
+
+1. Download the .zip file of the reunite repository from our website.
+2. Unzip the file.
+3. Navigate to the root of the app directory in your terminal.
+4. Run `npm install` to install the necessary dependencies.
+5. `cd` into the `\ios` subdirectory.
+6. Run `pod install` to setup the iOS simulation environment.
+7. Run `cd ..` to return to the root directory.
+8. Run `npm start --reset-cache`. Keep this terminal open.
+9. Open a new terminal and navigate to the root of the app directory once again.
+10. Run `react-native run-ios` to launch the XCode simulator. If the simulator doesn't launch within a few minutes, press `COMMAND + R` to rerun the simulator.
+
+NOTE: Whenever you run the application, you must repeat steps 8-10 (i.e. have two terminals open and run the respective commands in each terminal).
 
 ## Limitations
 
