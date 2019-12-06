@@ -1,0 +1,16 @@
+onboarding, users import friends here
+message added to travel plans
+ + notification card change to show message they added
+message shows status messages too
+get rid of lag time when name updates in chat screen title
+Expand clickable area of right side menu buttons
+
+-------------
+LOW PRIORITY
+-------------
+splash screen
+meetup screen expand notification
+meetup screen archived meetups
+add photo to chat screen title
+slidey timestamp for messages
+when flipped through notifications, do something
